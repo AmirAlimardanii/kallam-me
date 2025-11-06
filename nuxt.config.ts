@@ -8,11 +8,6 @@ export default defineNuxtConfig({
   },
   nitro: {
     preset: "vercel",
-    output: {
-      dir: ".output",
-      serverDir: ".output/server",
-      publicDir: ".output/public",
-    },
   },
   devtools: { enabled: true },
   modules: [
